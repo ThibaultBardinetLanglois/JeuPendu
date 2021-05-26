@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="pendu-full-container">
+            
+            <div class="game-container">
+                <p class="theme"></p>
+                <p class="rules-button">Règles <strong>-></strong></p>
+                <h1>Jeu du pendu</h1>
+                <section>
+                    <button class="button">Valider</button>
+                    <p class="warning-sentence">Vous devez choisir une lettre !</p>
+                    <p class="sentenceOne"></p>       
+                    <div class="sentence-bottom">
+                        <p class="sentenceTwo"></p>
+                        <p class="sentenceThree"></p>
+                    </div>
+                    <div class="jeu">
+                        <div class="input">
+                            <span></span>
+                        </div>
+                        <div class="random-word">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="refresh-container">
+                        <p class="refresh">Rejouer</p>
+                    </div>
+                    
+                    <div class="used-letter-div">
+                        <p></p>
+                    </div>
+                    <p class="final-sentence"></p>
+                </section>
+            </div>
+
+            <div class="rules-container">
+                <div class="rules-rows">
+                    <p class="game-button"><strong><-</strong> Jeu</p>
+                    <p>Un mot est généré aléatoirement et est contenu dans la catégorie indiqué par le thème.</p>
+                    <p>Certains mots ont des accents que vous n'avez pas à taper, par exemple : Pour "mâche" vous aurez à taper "mache".</p>
+                    <p>Le nombre de coups possibles diffère selon la longueur du mot : <br><span><strong>.</strong>Mots de 4-5 lettres : 9 coups</span> <br><span><strong>.</strong>Mots de 6-7 lettres: 10 coups</span>   <br><span><strong>.</strong>Mots de 8 lettres: 11 coups</span> <br><span><strong>.</strong>Mot de 9-10 lettres : 12 coups</span> </p>
+                    <p>Le compteur de coups diminue lorsque la lettre que vous choisissez n'est pas dans le mot, à l'inverse lorsque vous trouvez une lettre contenue le compteur ne diminue pas.</p>
+                </div>
+                
+            </div>
+            
+        </div>    
+    </div>   
+</body>
+</html>
